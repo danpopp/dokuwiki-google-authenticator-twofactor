@@ -1,20 +1,16 @@
 Description
 ===========
-DokuWiki Auth Plugin to work with Google Authenticator App.
+DokuWiki authentication plugin to implement Google Authenticator 2FA.
 
-Using this plugin you can authenticate the dokuwiki users gainst Google Authenticator.
-The users themselves and their access rights are still managed within dokuwiki.
+Using this plugin you can authenticate DokuWiki users against Google Authenticator 2FA.
+The users themselves and their access rights are still managed within DokuWiki.
 
-Then activate the plugin.
-Configure necessary plugin settings like:
+To get setup, activate the plugin and configure the required settings:
 
- * Your Google Authenticator Secret
- * The URL to your Google Authenticator QR Code
- * Whether to Enable Two-Factor Authentication...
-
-...and select the plugin as active plugin.
-
-Now you can login with the tokens from Google Authenticator for all users.
+ * Your Google Authenticator secret.
+ * The timeout slack, default is 2 ( 2*30 seconds = 60 seconds ).
+ * Whether you want to enable two-factor authentication or not...
+ * The URL to your Google Authenticator QR code image (optional).
 
 Troubleshooting
 ===============
