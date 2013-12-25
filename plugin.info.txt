@@ -1,4 +1,4 @@
-base   authgoogle
+base   authgoogle2fa
 author Daniel Popp
 email  dan@danpopp.net
 date   2013-12-15
