@@ -1,0 +1,7 @@
+base   authgoogle
+author Daniel Popp
+email  dan@danpopp.net
+date   2013-12-15
+name   Two Factor Google Authenticator Plugin
+desc   Adds Google Authenticator 2FA to DokuWiki local password storage. 
+url    http://www.danpopp.net
