@@ -2,7 +2,7 @@ Description
 ===========
 DokuWiki authentication plugin to implement Google Authenticator 2FA.
 
-Using this plugin you can authenticate DokuWiki users against Google Authenticator 2FA.
+Using this plugin you can authenticate DokuWiki users against Google Authenticator 2FA. \\
 The users themselves and their access rights are still managed within DokuWiki.
 
 To get setup, activate the plugin and configure the required settings:
