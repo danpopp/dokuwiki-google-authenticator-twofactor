@@ -6,7 +6,7 @@ if (!defined('DOKU_INC')) die();
  *
  * @author Daniel Popp dan@danpopp.net
  */
-class action_plugin_authgoogle extends DokuWiki_Action_Plugin {
+class action_plugin_authgoogle2fa extends DokuWiki_Action_Plugin {
     /**
      * Registers the event handlers.
      */
