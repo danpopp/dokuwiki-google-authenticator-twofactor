@@ -8,7 +8,7 @@ require_once(dirname(__FILE__).'/GoogleAuthenticator.php');
  *
  * @author Daniel Popp dan@danpopp.net
  */
-class auth_plugin_authgoogle extends auth_plugin_authplain  {
+class auth_plugin_authgoogle2fa extends auth_plugin_authplain  {
     function __construct() {
         parent::__construct();
     }
