@@ -21,7 +21,7 @@ class action_plugin_authgoogle2fa extends DokuWiki_Action_Plugin {
      * Handles the login form rendering.
      */
     function two_fa_login_form(&$event, $param) {
-        $twofa_form = "<div><b>".$this->getLang('google_2fa')." </b></div><input type='password' name='t'/><br/><br/>";
+        $twofa_form = "<label class=\"block\"><span>".$this->getLang('google_2fa')." </span><input type='password' name='t' class='edit'/></label><br/>";
         $empty="";
         $pos = $event->data->findElementByAttribute('type', 'submit');
         $event->data->replaceElement($pos-1, $twofa_form);
