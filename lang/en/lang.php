@@ -1,3 +1,3 @@
 <?php
-$lang['google_2fa'] = "Google Authenticator Token";
+$lang['google_2fa'] = "2FA Token";
 ?>
