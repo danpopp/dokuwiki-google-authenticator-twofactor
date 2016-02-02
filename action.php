@@ -10,7 +10,7 @@ class action_plugin_authgoogle2fa extends DokuWiki_Action_Plugin {
     /**
      * Registers the event handlers.
      */
-    function register(&$controller)
+    function register(Doku_Event_Handler $controller)
     {
         $enable = $this->getConf("use2fa_verify");
         if($enable===1) {
